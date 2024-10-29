@@ -1,8 +1,8 @@
 // Generics in Typescript
 
 /* 
-1. Generic Classes: where we provide an argument i.e <T> to types for later assignment
-   e.g classname<arg,..>{const(para.: arg)}
+1. Generic Classes: reusable solution where we provide one or more generic type parameter i.e <T> to types for later assignment
+   e.g classname<arg,..>{const(param: arg)}
 2. Generic Function: similar to class
 3. Generic Interface: explained below
 4. Generic Constraints: limit arg to specfic type i.e object,class,string even interface. using "extends"

@@ -1,23 +1,24 @@
 // OOP
 /* 
 1. Created class with constructor and method.
+    Constructor: special function that is called when an instance of a class created and used for inilializing properties of an object
 2. Used readonly and optional operator(?) in properties.
 3. Used access modifier to strict accessibility.
     Private: not accessible outside class and not inherited to sub classes. 
     Protected: can inherited to sub classes but not outside classs
 4. Parameters properties: implementation of properties in constructor's parameters to avoid rewrite.
 5. Getter and Setter methods inside class to get and set values of properties
-6. Index signatures: ""[property name: property type]: value type"" In ts we cant dynamically assign new props to objs so we use this
-7. Static members: It makes property to only belongs to class not objects.
+6. Index signatures: ""[property name: property type]: value type"" In ts we cant dynamically assign new properties to objs so we use this
+7. Static members: It makes property to only belongs to class not objects. Only single instance of it in memory
 8. Inheritance: reuse of code, reusing properties and methods of one class into another.
 9. Method Overriding: changing its implementation e.g changing fullname prefix for teacher and students.
-10. Polymorphism: it refers where object can take many different forms. It pushes us towards Open closed principle.
+10. Polymorphism: it refers where an object can take many different forms. It pushes us towards Open closed principle.
 11. Open closed Principle: classes should be open to extensions but closed for modification.
 12. Abstract Classes: it is like uncooked meal which needs extending to solve purpose
 13. Abstract Method: It has no implementation no use Similar to class but it can only aplicable inside abstract class
-14. Interfaces: Using it describles shape of an object.
-    It is somewhat similar to abstract but used to only declare properties and methods.
-    Cant implement methods, if you want then use abstract classes.
+14. Interfaces: Using interface we can only describes shape of an object. And then implements in classes
+    It is somewhat similar to abstract but used to only DECLARE properties and methods.
+    Cant IMPLEMENT methods, if you want then use abstract classes.
  */
 
 class Account {
