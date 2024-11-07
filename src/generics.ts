@@ -109,7 +109,7 @@ class SearchableStore<T extends { name: string }> extends Store<T> {
 let store2 = new SearchableStore<Products>();
 store2.search('abc');
 
-// Fix the generic type parameter
+// 3rd: Fix the generic type parameter
 // If we have some operation which only applies to product so we have use this scenario
 class ProductStore extends Store<Products> {
   searchCategory(category: string): Products[] {
